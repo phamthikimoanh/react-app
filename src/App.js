@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
+import LeftInfo from "./component/leftInfo";
+import RightInfo from "./component/rightInfo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Tui là Kim Kim</p>
-      </header>
+    <div className="CV">
+      <LeftInfo />
+      <RightInfo />
     </div>
   );
 }

@@ -1,0 +1,58 @@
+body{color: #333;background: #3b00ff08}
+.CV {
+  display: flex;
+  flex-direction: row;
+  width: 1040px;
+  justify-content: space-around;
+  align-self: center;
+  margin: 3vw auto;
+}
+.Info-right {
+  padding: 15px;
+}
+.Info-left {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.ImgLogo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+}
+.name,
+.job {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  display: block;
+}
+.name.text-center {
+  color: #029765;
+}
+.job.text-center {
+  color: #999;
+}
+.title {
+  font-family: monospace;
+  font-weight: 600;
+  color: #777;
+  font-size: 20px;
+  border: 1px solid #999;
+  width: 300px;
+  display: block;
+  margin: 2vw auto;
+}
+.ttcn {
+  border: none;
+}
+.info-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.tt{
+    margin-left: 8px;
+}
