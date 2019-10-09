@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class topInfo extends Component {
+class rightInfo extends Component {
   render() {
     return (
       <div>
@@ -36,4 +36,4 @@ class topInfo extends Component {
   }
 }
 
-export default topInfo;
+export {rightInfo};

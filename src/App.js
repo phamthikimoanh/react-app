@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import LeftInfo from "./component/leftInfo";
-import RightInfo from "./component/rightInfo";
-
+import * as LibComponent from "./component";
+// import Mock from "./mook/Mook.js";
 function App() {
+  // console.log(Mock);
   return (
     <div className="CV">
-      <LeftInfo />
-      <RightInfo />
+      <LibComponent.leftInfo />
+      <LibComponent.rightInfo />
     </div>
   );
 }
