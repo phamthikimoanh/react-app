@@ -1,2 +1,2 @@
-export {leftInfo} from '../component/leftInfo'
-export  {rightInfo} from '../component/rightInfo'
+export {leftInfo} from '../component/page/leftInfo'
+export  {rightInfo} from '../component/page/rightInfo'

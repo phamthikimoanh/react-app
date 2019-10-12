@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="CV">
       <LibComponent.leftInfo />
-      <LibComponent.rightInfo />
+      <LibComponent.rightInfo title="info_job" />
     </div>
   );
 }

@@ -4,14 +4,14 @@ import { FaBirthdayCake } from "react-icons/fa";
 import { FaMailchimp } from "react-icons/fa";
 import { FaBlenderPhone } from "react-icons/fa";
 import { FaAddressCard } from "react-icons/fa";
-import Mock from '../mook/Mook';
+import sumary_infos from '../../mook/Mook';
 
 class leftInfo extends Component {
   render() {    
-    const datas = Mock; 
-    //console.log(Mock);
-    const dt = datas.sumary_infos.info_detail;
-    console.log(datas.sumary_infos.info_detail);
+    const datas = sumary_infos; 
+    // console.log(datas);
+    const dt = datas[0].child;
+    // console.log(datas.info_detail);
     return ( 
       <div>
         <div className="Info-left">
