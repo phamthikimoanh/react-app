@@ -4,7 +4,7 @@ import { FaBirthdayCake } from "react-icons/fa";
 import { FaMailchimp } from "react-icons/fa";
 import { FaBlenderPhone } from "react-icons/fa";
 import { FaAddressCard } from "react-icons/fa";
-import sumary_infos from '../../mook/Mook';
+import sumary_infos from '../../../mook/Mook';
 
 class leftInfo extends Component {
   render() {    
