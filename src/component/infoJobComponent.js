@@ -5,7 +5,7 @@ export default class infoJobComponent extends Component {
     return (
       <div className="MTNN">
         <span className="title mtnn text-center">
-          {this.props.ngenghiep ? this.props.ngenghiep : "Nghe nghiep"}
+          {this.props.nghenghiep ? this.props.nghenghiep : "Nghe nghiep"}
         </span>
         {this.props.chitiet ? this.props.chitiet : "Chi tiet"}
       </div>
